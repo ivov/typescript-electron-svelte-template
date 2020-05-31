@@ -1,0 +1,26 @@
+{
+	"name": "svelte-app",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "npm run svelte-bundler",
+		"svelte-bundler": "rollup -c -w",
+		"electron-start": "tsc-watch --onSuccess \"electron build/client/Client.js\"",
+		"css": "postcss client/public/tailwind.css -o build/client/public/tailwind.css"
+	},
+	"dependencies": {
+		"electron": "^9.0.0",
+		"tailwindcss": "^1.4.6"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^12.0.0",
+		"@rollup/plugin-node-resolve": "^8.0.0",
+		"@types/node": "^12.12.38",
+		"electron-reload": "^1.5.0",
+		"postcss-cli": "^7.1.1",
+		"rollup": "^2.11.2",
+		"rollup-plugin-svelte": "^5.2.2",
+		"svelte": "^3.23.0",
+		"tsc-watch": "^4.2.8",
+		"typescript": "^3.9.3"
+	}
+}
