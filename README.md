@@ -2,7 +2,7 @@
 
 This is a template for developing an app in TypeScript/Electron, Svelte and Tailwind CSS with hot-reloading.
 
-The purpose of this template is enabling with hot-reloading for every technology in the app:
+The purpose of this template is enabling hot-reloading for every technology in the app:
 
 - Watch and constantly recompile the TypeScript/Electron client with `tsc-watch`.
 - Watch and constantly rebundle the Svelte app in `/renderer` with Rollup.
